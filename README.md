@@ -15,7 +15,7 @@ How To Use
    - you may need to click "Generate My Access Token and Token Secret" to get your Access Token and Access Secret.
  5. To delete tweets a maximum of 10,000 from before January 1st 2016, run the below (run `./twelete --help` for more options):
 
-    ./twelete --archive ~/Downloads/<twitter archive>.zip --before 2016-01-01 --limit 10000 --pause 100ms --consumer-key <your consumer key> --consumer-secret <your consumer secret> --access-token <your access token> --access-secret <your access secret>
+    ./twelete --archive ~/Downloads/your-twitter-archive.zip --before 2016-01-01 --limit 10000 --pause 100ms --consumer-key your-consumer-key --consumer-secret your-consumer-secret --access-token your-access-token --access-secret your-access-secret
 
  6. Delete your Twitter App
 
